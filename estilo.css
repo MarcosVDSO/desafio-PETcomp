@@ -1,0 +1,635 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#corpo-inicio {
+    background-image: url('https://petcompufma.org/assets/images/lala-azizli-cBUTPbTeDB0-unsplash.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    height: 400vh;
+}
+#menu-superior {
+    background-color: white;
+}
+
+#menu-superior ul {
+    float: right;
+    list-style: none;
+    padding: 0;
+    max-width: 800;
+    
+
+}
+#menu-superior ul li {
+    display: inline;
+    font-size: large;
+
+}
+
+#menu-superior ul li a {
+    color: black;
+    padding: 35px;
+    display: inline-block;
+    text-decoration: none;
+}
+#menu-superior ul li a:hover {
+    padding-block: 10px;
+    background-color: gainsboro;
+}
+
+#imagem {
+    display: flex;
+}
+
+#menu-superior2 {
+    background-image: linear-gradient(to bottom, white, gainsboro);
+}
+
+#menu-superior2 ul {
+    float: right;
+    list-style: none;
+    padding: 0;
+    max-width: 800;
+    
+
+}
+#menu-superior2 ul li {
+    display: inline;
+    font-size: large;
+
+}
+
+#menu-superior2 ul li a {
+    color: black;
+    padding: 35px;
+    display: inline-block;
+    text-decoration: none;
+}
+#menu-superior2 ul li a:hover {
+    padding-block: 10px;
+    background-color: gainsboro;
+}
+
+div.quadrado1 {
+    display: inline-block;
+    position: absolute;
+    top: 730px;
+    left: 50px;
+    background-image: url('https://petcompufma.org/assets/images/photo-5-big.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 135%;
+    width: 120px;
+    height: 140px;
+
+}
+
+div.quadrado2 {
+    top: 690px;
+    position: absolute;
+    display: inline-block;
+    border-radius: 2px;
+    background-color: #ccc;
+    background-repeat: no-repeat;
+    background-size: 135%;
+    width: 1349px;
+    height: 500px;
+
+}
+
+div.quadrado3 {
+    display: inline-block;
+    position: absolute;
+    top: 890px;
+    left: 50px;
+    background-image: url('https://petcompufma.org/assets/images/photo-2-big.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 150%;
+    width: 120px;
+    height: 260px;
+}
+
+div.quadrado4 {
+    display: inline-block;
+    position: absolute;
+    top: 730px;
+    left: 200px;
+    background-image: url('https://petcompufma.org/assets/images/photo-8-big.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 150%;
+    width: 250px;
+    height: 280px;
+}
+
+div.quadrado5 {
+    display: inline-block;
+    position: absolute;
+    top: 1030px;
+    left: 200px;
+    background-image: url('https://petcompufma.org/assets/images/photo-1-big.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 140%;
+    width: 250px;
+    height: 120px;
+}
+div.texto-quadrado {
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    color: #343564;
+    position: absolute;
+    top: 730px;
+    left: 480px;
+    
+}
+div.texto-quadrado2 {
+    display: inline-block;
+    text-align: justify;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    color:black;
+    position: absolute;
+    top: 850px;
+    left: 480px;
+    line-height: 25px;
+    width: 520px;
+    height: 200px;
+}
+div.veja-mais {
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    color:black;
+    position: absolute;
+    top: 1120px;
+    left: 480px;
+}
+
+div.menu-transparente {
+    top: 140px;
+    position: absolute;
+    display: inline-block;
+    background-color: white;
+    opacity: 0.5;
+    background-repeat: no-repeat;
+    width: 1349px;
+    height: 450px;
+
+}
+div.texto-menu-t {
+    position: absolute;
+    font-family: 'Roboto', sans-serif;
+    font-size: 23px;
+    color: #343564;
+    position: absolute;
+    top: 300px;
+    left: 260px;
+}
+
+div.texto2-menu-t {
+    position: absolute;
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    color: #343564;
+    position: absolute;
+    top: 360px;
+    left: 390px;
+}
+
+div.botao-conheça {
+    position: absolute;
+    padding: 10px 8px;
+    width: 90px;
+    height: 45px;
+    border: 1px;
+    border-radius: 5px;
+    font-family: 'Roboto', sans-serif;
+    background: #1dacd6;
+    font-size: 15px;
+    color:white;
+    text-align: center;
+    top: 420px;
+    left: 580px;
+    user-select: none;
+    cursor: pointer;
+}
+
+div.botao-conheça:hover {
+    background: #343564;
+}
+
+div.quads-fim {
+    width: 220px;
+    height: 250px;
+    border-radius: 10px;
+    background: white;
+}
+
+div#q1 {
+    position: absolute;
+    top: 1300px;
+    left: 700px;
+}
+
+div#q2 {
+    position: absolute;
+    top: 1300px;
+    left: 1000px;
+}
+
+div#q3 {
+    position: absolute;
+    top: 1600px;
+    left: 700px;
+}
+
+div#q4 {
+    position: absolute;
+    top: 1600px;
+    left: 1000px;
+}
+
+div#q5 {
+    position: absolute;
+    top: 1900px;
+    left: 700px;
+}
+
+div#q6 {
+    position: absolute;
+    top: 1900px;
+    left: 1000px;
+}
+
+div.botoes-saiba {
+    padding: 10px 8px;
+    width: 100px;
+    height: 40px;
+    border: 1px;
+    border-radius: 10px;
+    font-family: 'Roboto', sans-serif;
+    background: #ccc;
+    font-size: 15px;
+    color: black;
+    text-align: center;
+    user-select: none;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+div.botoes-saiba:hover {
+    background: #1dacd6;
+    color: white;
+}
+
+div#b1 {
+    position: absolute;
+    top: 1480px;
+    left: 730px;
+}
+
+div#b2 {
+    position: absolute;
+    top: 1480px;
+    left: 1030px;
+}
+
+div#b3 {
+    position: absolute;
+    top: 1780px;
+    left: 730px;
+}
+
+div#b4 {
+    position: absolute;
+    top: 1780px;
+    left: 1030px;
+}
+
+div#b5 {
+    position: absolute;
+    top: 2080px;
+    left: 730px;
+}
+
+div#b6 {
+    position: absolute;
+    top: 2080px;
+    left: 1030px;
+}
+
+div.imgs-logo {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background: #343564;
+    border: 1px;
+    border-radius: 5px;
+}
+
+div#i1 {
+    position: absolute;
+    top: 1330px;
+    left: 730px;
+    background-image: url('https://petcompufma.org/assets/images/graduation-hat.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 70%;
+}
+
+div#i2 {
+    position: absolute;
+    top: 1330px;
+    left: 1030px;
+    background-image: url('https://petcompufma.org/assets/images/mic-podcast.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 70%;
+}
+
+div#i3 {
+    position: absolute;
+    top: 1630px;
+    left: 730px;
+    background-image: url('https://petcompufma.org/assets/images/web-programming.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 70%;
+}
+
+div#i4 {
+    position: absolute;
+    top: 1630px;
+    left: 1030px;
+    background-image: url('https://petcompufma.org/assets/images/talk-show.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 70%;
+}
+
+div#i5 {
+    position: absolute;
+    top: 1930px;
+    left: 730px;
+    background-image: url('https://petcompufma.org/assets/images/online-course.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 70%;
+}
+
+div#i6 {
+    position: absolute;
+    top: 1930px;
+    left: 1030px;
+    background-image: url('https://petcompufma.org/assets/images/contract.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 70%;
+}
+
+div.atividade {
+    font-family: 'Roboto', sans-serif;
+    color: black;
+}
+
+div#a1 {
+    position: absolute;
+    top: 1420px;
+    left: 730px;
+    font-size: 12px;
+}
+
+div#a2 {
+    position: absolute;
+    top: 1420px;
+    left: 1030px;
+    font-size: 12px;
+}
+
+div#a3 {
+    position: absolute;
+    top: 1720px;
+    left: 730px;
+    font-size: 12px;
+}
+
+div#a4 {
+    position: absolute;
+    top: 1720px;
+    left: 1030px;
+    font-size: 12px;
+}
+
+div#a5 {
+    position: absolute;
+    top: 2020px;
+    left: 730px;
+    font-size: 12px;
+}
+
+div#a6 {
+    position: absolute;
+    top: 2020px;
+    left: 1030px;
+    font-size: 12px;
+}
+
+div.titulo-atv {
+    color: white;
+    font-family: 'Roboto', sans-serif ;
+    font-size: 25px;
+
+}
+
+div#t1 {
+    position: absolute;
+    top: 1650px;
+    left: 170px;
+}
+
+div.text-atv {
+    display: inline-block;
+    position: absolute;
+    top: 1720px;
+    left: 170px;
+    color: white;
+    font-family: 'Roboto', sans-serif ;
+    width: 270px;
+    height: 100px;
+    text-align: justify;
+    line-height: 22px;
+}
+
+div.bloco-final {
+    top: 2255px;
+    position: absolute;
+    display: inline-block;
+    border-radius: 2px;
+    background-image: linear-gradient(to bottom, #060b3f, #232433);
+    background-repeat: no-repeat;
+    background-size: 135%;
+    width: 1349px;
+    height: 325px;
+
+}
+
+div#t2 {
+    position: absolute;
+    top: 2275px;
+    left: 270px;
+    color: white;
+    font-size: 20px;
+
+}
+
+div#t3 {
+    position: absolute;
+    top: 2275px;
+    left: 910px;
+    color: white;
+    font-size: 20px;
+}
+
+div.logopetcomp {
+    position: absolute;
+    display: inline-block;
+    top: 2340px;
+    left: 185px;
+    width: 150px;
+    height: 150px;
+    background-image: url("https://petcompufma.org/assets/images/logos/Logo%20Monocromatica%20Branca.png");
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+div.logoufma {
+    position: absolute;
+    display: inline-block;
+    top: 2340px;
+    left: 320px;
+    width: 150px;
+    height: 150px;
+    background-image: url("https://petcompufma.org/assets/images/logos/UFMA.png");
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+div.icones {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    
+}
+
+div#n1 {
+    position: absolute;
+    top: 2345px;
+    left: 805px;
+    background-image: url("https://petcompufma.org/assets/svg/map%20icon.svg");
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+div#n2 {
+    position: absolute;
+    top: 2390px;
+    left: 805px;
+    background-image: url("https://petcompufma.org/assets/svg/email%20icon.svg");
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+div#n3 {
+    position: absolute;
+    top: 2435px;
+    left: 805px;
+    background-image: url("https://petcompufma.org/assets/svg/instagram%20icon.svg");
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+div#n4 {
+    position: absolute;
+    top: 2480px;
+    left: 805px;
+    background-image: url("https://petcompufma.org/assets/svg/twitter%20icon.svg");
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+div.textos-finais1 {
+    display: inline-block;
+    text-align: justify;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color:white;
+    position: absolute;
+    top: 2340px;
+    left: 850px;
+    line-height: 20px;
+    width: 330px;
+    height: 200px;
+}
+
+div.textos-finais2 {
+    display: inline-block;
+    text-align: justify;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color:white;
+    position: absolute;
+    top: 2380px;
+    left: 850px;
+    line-height: 45px;
+    width: 330px;
+    height: 200px;
+}    
+
+div.titulo-evento {
+    color: black;
+    font-family: 'Roboto', sans-serif ;
+    font-size: 25px;
+    position: absolute;
+    top: 150px;
+    left: 530px;
+}
+
+div.texto-evento {
+    display: inline-block;
+    text-align: justify;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    color:black;
+    position: absolute;
+    top: 250px;
+    left: 300px;
+    line-height: 35px;
+    width: 750px;
+    height: 600px;
+}
+
+div.titulo-monitoria {
+    color: black;
+    font-family: 'Roboto', sans-serif ;
+    font-size: 25px;
+    position: absolute;
+    top: 150px;
+    left: 530px;
+
+}
+
